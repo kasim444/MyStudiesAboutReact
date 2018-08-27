@@ -1,0 +1,43 @@
+.ListArea {
+    margin: 0 auto;
+}
+
+input {
+    width: 100%;
+    margin-top: 22px;
+    height: 22px;
+    line-height: 22px;
+    text-indent: 10px;
+}
+
+ul,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.list {}
+
+.list li {
+    text-align: left;
+    padding: 5px;
+    background-color: rgb(243, 243, 243);
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+
+.list li span {
+    display: block;
+}
+
+.list li span.name {
+    float: left;
+}
+
+.list li span.phone {
+    float: right;
+}
+
+.list li span.clear {
+    clear: both;
+}
