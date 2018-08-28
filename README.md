@@ -25,7 +25,7 @@
   <li><b>componentDidUpdate</b> => Fonksiyon iki parametre alabiliyor: prevProps ve prevState. Yani bir component güncellendiğinde render edildikten hemen sonra çalışan bir metot. Bir önceki props ve state i bu değişkenleri kullabilmekteyiz.</li>
 </ol>
 </p>
-<p>Lifecycle sırası ile;
+<p>Lifecycle sırası ile ( <a href="https://codepen.io/kasim444/pen/WgxZVP?editors=0010" target="_blank">Örnek olması açısından lifecycle ile ilgili codepen üzerinde ufak bir elma fiyatı hesaplama yapan bir uygulama geliştirdim.</a> );
   <ol>
   <li>Constructor</li>
   <li>Component WillMount</li>
