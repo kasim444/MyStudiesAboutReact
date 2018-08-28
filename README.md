@@ -14,6 +14,17 @@
 </ul>
 
 <h2>LifeCycle in React</h2>
+<p>
+<ol>
+  <li><b>constructor</b>(component oluşturulurken çalışan ilk metottur.)</li>
+  <li><b>componentWillMount(sanal domdan, gerçek doma aktarılmadan hemen önce çalışır.page analitic gibi işlemlerde)</li>
+  <li><b>render</b></li>
+  <li><b>componentDidMount</b>(render işlemi gerçekleştikten sonra çalışır. örnek olarak ise componenta gereken servis çağrıları çağrılır.)</li>
+  <li><b>shouldComponentUpdate</b>(return olarak iki parametre alabilir true ya da false. Yani statete bir değişiklik olduğunda tekrardan render edilip edilmesini istemediğimiz zamanlarda bu fonk. kullanabiliriz.)</li>
+  <li><b>componentWillUpdate</b>Fonksiyon iki parametre alabiliyor: nextProps ve nextState. Yani bir component güncellendiğinde render edilmeden hemen önce çalışan bir metot.nextState parametresi sayesinde yeni girilen state i bir değişken olarak kullanabiliyoruz ya da propsu.</li>
+  <li><b>componentDidUpdate</b>Fonksiyon iki parametre alabiliyor: prevProps ve prevState. Yani bir component güncellendiğinde render edildikten hemen sonra çalışan bir metot. Bir önceki props ve state i bu değişkenleri kullabilmekteyiz.</li>
+</ol>
+</p>
 <li>Lifecycle sırası ile;
   <ol>
   <li>Constructor</li>
@@ -23,20 +34,14 @@
   <li>Child WillMount</li>
   <li>Child Render</li>
   <li>Child DidMount</li>
-  <li>Component DidMount</li>
-</ol><p>
-<ol>
-  <li><b>constructor</b>(component oluşturulurken çalışan ilk metottur.)</li>
-  <li><b>componentWillMount(sanal domdan, gerçek doma aktarılmadan hemen önce çalışır.page analitic gibi işlemlerde)</li>
-  <li><b>render</b></li>
-  <li><b>componentDidMount</b>(render işlemi gerçekleştikten sonra çalışır. örnek olarak ise componenta gereken servis çağrıları çağrılır.)</li>
-  <li><b>shouldComponentUpdate</b>(return olarak iki parametre alabilir true ya da false. Yani statete bir değişiklik olduğunda tekrardan render edilip edilmesini istemediğimiz zamanlarda bu fonk. kullanabiliriz.)</li>
-  <li><b>componentWillUpdate</b>Fonksiyon iki parametre alabiliyor: nextProps ve nextState. Yani bir component güncellendiğinde render edilmeden hemen önce çalışan bir metot.nextState parametresi sayesinde yeni girilen state i bir değişken olarak kullanabiliyoruz ya da propsu.</li>
-  <li><b>componentDidUpdate</b>Fonksiyon iki parametre alabiliyor: prevProps ve prevState. Yani bir component güncellendiğinde render edildikten hemen sonra çalışan bir metot. Bir önceki props ve state i bu değişkenleri kullabilmekteyiz.</li>
-</ol></p>
-  </li>
+  <li>ComponentDidMount</li>
+  <li>ComponentWillUpdate</li>
+  <li>Render</li>
+  <li>ComponentDidUpdate</li>
+ </ol>
+</li>
 
-  
+
 <h2>Subjects I Should Research</h2>
 <ul>
   <li>Context Binding in Javascript with Closure</li>
