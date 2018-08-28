@@ -21,16 +21,17 @@
   <li>Child DidMount</li>
   <li>Component DidMount</li>
 </ol><p>
-    -<b>constructor</b>(component oluşturulurken çalışan ilk metottur.)
-    -<b>componentWillMount(sanal domdan, gerçek doma aktarılmadan hemen önce çalışır.page analitic gibi işlemlerde)
-    -<b>render</b>
-    -<b>componentDidMount</b>(render işlemi gerçekleştikten sonra çalışır. örnek olarak ise componenta gereken servis çağrıları çağrılır.)
-    -<b>shouldComponentUpdate</b>(Eğer statete bir değişiklik olduğunda tekrardan render edilip edilmesini istemediğimiz zamanlarda bu fonk. kullanabiliriz.)
-    </p>
-    </li>
+<ol>
+  <li><b>constructor</b>(component oluşturulurken çalışan ilk metottur.)</li>
+  <li><b>componentWillMount(sanal domdan, gerçek doma aktarılmadan hemen önce çalışır.page analitic gibi işlemlerde)</li>
+  <li><b>render</b></li>
+  <li><b>componentDidMount</b>(render işlemi gerçekleştikten sonra çalışır. örnek olarak ise componenta gereken servis çağrıları çağrılır.)</li>
+  <li><b>shouldComponentUpdate</b>(Eğer statete bir değişiklik olduğunda tekrardan render edilip edilmesini istemediğimiz zamanlarda bu fonk. kullanabiliriz.)</li>
+</ol></p>
+  </li>
 </ul>
 
-<h4>Subjects I Should Research</h4>
+<h2>Subjects I Should Research</h2>
 <ul>
   <li>Context Binding in Javascript with Closure</li>
   <li>Wrapper function</li>
