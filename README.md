@@ -10,8 +10,11 @@
   <li>Eğer react içerisinde event'larla bir işlem yapıyorsak(onChange, onSubmit) bunu bind(this) ya da arrow function metodu ile yapmalıyız. Aksi taktirde bu işlem gerçekleşmeyecektir.</li>
   <li>Eğer form submit özelliğini kullanıyorsak ilk olarak event.prevenDefault metodunu çalıştırmamız gerekliki ekran tekrardan post olmasın ve veriler kayıp olmasın.</li>
   <li>Render'da state'lere müdehale etmek performansı düşürür. eğer bir setState uygulamamız gerekli ise bunu render metodunun hemen üstünde yapmamız daha iyi olacaktır.</li>
-  <li>React'ta lifecycle render haricinde hepsi bir kere çalışır.</li>
-  <li>Lifecycle sırası ile;
+  <li>React'ta lifecycle metotlarında render haricinde hepsi bir kere çalışır.</li>
+</ul>
+
+<h2>LifeCycle in React</h2>
+<li>Lifecycle sırası ile;
   <ol>
   <li>Constructor</li>
   <li>Component WillMount</li>
@@ -27,11 +30,13 @@
   <li><b>componentWillMount(sanal domdan, gerçek doma aktarılmadan hemen önce çalışır.page analitic gibi işlemlerde)</li>
   <li><b>render</b></li>
   <li><b>componentDidMount</b>(render işlemi gerçekleştikten sonra çalışır. örnek olarak ise componenta gereken servis çağrıları çağrılır.)</li>
-  <li><b>shouldComponentUpdate</b>(Eğer statete bir değişiklik olduğunda tekrardan render edilip edilmesini istemediğimiz zamanlarda bu fonk. kullanabiliriz.)</li>
+  <li><b>shouldComponentUpdate</b>(return olarak iki parametre alabilir true ya da false. Yani statete bir değişiklik olduğunda tekrardan render edilip edilmesini istemediğimiz zamanlarda bu fonk. kullanabiliriz.)</li>
+  <li><b>componentWillUpdate</b>Fonksiyon iki parametre alabiliyor: nextProps ve nextState. Yani bir component güncellendiğinde render edilmeden hemen önce çalışan bir metot.nextState parametresi sayesinde yeni girilen state i bir değişken olarak kullanabiliyoruz ya da propsu.</li>
+  <li><b>componentDidUpdate</b>Fonksiyon iki parametre alabiliyor: prevProps ve prevState. Yani bir component güncellendiğinde render edildikten hemen sonra çalışan bir metot. Bir önceki props ve state i bu değişkenleri kullabilmekteyiz.</li>
 </ol></p>
   </li>
-</ul>
 
+  
 <h2>Subjects I Should Research</h2>
 <ul>
   <li>Context Binding in Javascript with Closure</li>
