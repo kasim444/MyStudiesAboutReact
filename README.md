@@ -18,7 +18,7 @@
 <ol>
   <li><b>constructor</b> => component oluşturulurken çalışan ilk metottur.</li>
   <li><b>componentWillMount</b> => sanal domdan, gerçek doma aktarılmadan hemen önce çalışır.page analitic gibi işlemlerde.</li>
-  <li><b>render</li>
+  <li><b>render</b></li>
   <li><b>componentDidMount</b> => render işlemi gerçekleştikten sonra çalışır. örnek olarak ise componenta gereken servis çağrıları çağrılır.</li>
   <li><b>shouldComponentUpdate</b> => return olarak iki parametre alabilir true ya da false. Yani statete bir değişiklik olduğunda tekrardan render edilip edilmesini istemediğimiz zamanlarda bu fonk. kullanabiliriz.</li>
   <li><b>componentWillUpdate</b>Fonksiyon iki parametre alabiliyor: nextProps ve nextState. Yani bir component güncellendiğinde render edilmeden hemen önce çalışan bir metot.nextState parametresi sayesinde yeni girilen state i bir değişken olarak kullanabiliyoruz ya da propsu.</li>
