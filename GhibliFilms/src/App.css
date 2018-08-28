@@ -1,0 +1,18 @@
+.App {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card {
+    width: 50%;
+    height: 200px;
+    float: left;
+}
+
+.App h4 {
+    color: wheat;
+}
+
+.logo {
+    width: 300px;
+}
