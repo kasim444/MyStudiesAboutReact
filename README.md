@@ -1,7 +1,8 @@
 <h1>Practices I Developed During React Learning</h1>
 <ul>
- <li><a href="https://github.com/kasim444/MyStudiesAboutReact/tree/master/Counter" target="_blank">Counter</a></li>
- <li><a href="https://github.com/kasim444/MyStudiesAboutReact/tree/master/PhoneBook/my-app" target="_blank">Phone Book</a></li>
+ <li><a href="https://github.com/kasim444/MyStudiesAboutReact/tree/master/Counter">Counter</a></li>
+ <li><a href="https://github.com/kasim444/MyStudiesAboutReact/tree/master/PhoneBook/my-app">Phone Book</a></li>
+ <li><a href="https://github.com/kasim444/MyStudiesAboutReact/tree/master/AmountApple/my-app">Calculating Apple price</a></li>
 </ul>
 
 <h2>Notes to myself</h2>
