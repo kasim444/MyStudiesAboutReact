@@ -10,16 +10,16 @@
   3- Render'da state'lere müdehale etmek performansı düşürür. eğer bir setState uygulamamız gerekli ise bunu render metodunun hemen üstünde yapmamız daha iyi olacaktır.
   5- Lifecycle sırası ile;
 
-    <ol>
-      <li>Constructor</li>
-      <li>Component WillMount</li>
-      <li>Render</li>
-      <li>Child Cunstructor</li>
-      <li>Child WillMount</li>
-      <li>Child Render</li>
-      <li>Child DidMount</li>
-      <li>Component DidMount</li>
-    </ol>
+<ol>
+  <li>Constructor</li>
+  <li>Component WillMount</li>
+  <li>Render</li>
+  <li>Child Cunstructor</li>
+  <li>Child WillMount</li>
+  <li>Child Render</li>
+  <li>Child DidMount</li>
+  <li>Component DidMount</li>
+</ol>
     -constructor(component oluşturulurken çalışan ilk metottur.)
     -componentWillMount(sanal domdan, gerçek doma aktarılmadan hemen önce çalışır.page       analitic gibi işlemlerde)
     -render
