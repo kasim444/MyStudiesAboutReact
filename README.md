@@ -25,7 +25,7 @@
   <li><b>componentDidUpdate</b>Fonksiyon iki parametre alabiliyor: prevProps ve prevState. Yani bir component güncellendiğinde render edildikten hemen sonra çalışan bir metot. Bir önceki props ve state i bu değişkenleri kullabilmekteyiz.</li>
 </ol>
 </p>
-<li>Lifecycle sırası ile;
+<p>Lifecycle sırası ile;
   <ol>
   <li>Constructor</li>
   <li>Component WillMount</li>
@@ -39,7 +39,7 @@
   <li>Render</li>
   <li>ComponentDidUpdate</li>
  </ol>
-</li>
+</p>
 
 
 <h2>Subjects I Should Research</h2>
