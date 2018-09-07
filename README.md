@@ -12,6 +12,7 @@
   <li>Eğer form submit özelliğini kullanıyorsak ilk olarak event.prevenDefault metodunu çalıştırmamız gerekliki ekran tekrardan post olmasın ve veriler kayıp olmasın.</li>
   <li>Render'da state'lere müdehale etmek performansı düşürür. eğer bir setState uygulamamız gerekli ise bunu render metodunun hemen üstünde yapmamız daha iyi olacaktır.</li>
   <li>React'ta lifecycle metotlarında render haricinde hepsi bir kere çalışır.</li>
+  <li>Router'da </li>
 </ul>
 
 <h2>LifeCycle in React</h2>
